@@ -81,3 +81,5 @@
    81  mkdir uge_workshop
    82  pwd
    83  history > moving_around.txt
+
+new notesl......
