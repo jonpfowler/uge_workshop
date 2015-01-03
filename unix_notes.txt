@@ -1,0 +1,83 @@
+    1  cwd
+    2  cd
+    3  pwd
+    4  md temp
+    5  mkdir temp
+    6  ls
+    7  cd temp
+    8  echo x > x.txt
+    9  ls
+   10  type x.txt
+   11  pwd
+   12  curl -fsSL http://git.io/cWIXEw | sh
+   13  curl -fsSL /c/Users/Jon/temp/x.txt | sh
+   14  curl -fsSL c:/Users/Jon/temp/x.txt | sh
+   15  curl -fsSL c:\Users\Jon\temp\x.txt | sh
+   16  curl -fsSL x.txt | sh
+   17  curl -fsSL ./x.txt | sh
+   18  help
+   19  help curl
+   20  man -k curl
+   21  info curl
+   22  #!/bin/sh
+   23  TARGET="/c/Program Files (x86)/Git/bin/subl"
+   24  TARGET="/c/Program Files/Git/bin/subl"
+   25  echo '#!/bin/sh' > $TARGET
+   26  pwd
+   27  echo '"C:\Program Files\Sublime Text 2\sublime_text.exe" $1 &' >> $TARGET
+   28  echo '#!/bin/sh' > TARGET x.txt 
+   29  echo '"C:\Program Files\Sublime Text 2\sublime_text.exe" $1 &' >> TARGET
+   30  subl
+   31  subl
+   32  subl
+   33  subl x.txt
+   34  pwd
+   35  cd /c
+   36  pwd
+   37  ls -l
+   38  ls -lt
+   39  man ls
+   40  help ls
+   41  man -kk ls
+   42  info ls
+   43  help help
+   44  help ls
+   45  help pwd
+   46  man pwd
+   47  man
+   48  clear
+   49  cd /c/Users
+   50  pwd
+   51  ls
+   52  cd jon
+   53  pwd
+   54  ls
+   55  ls -lp
+   56  ls
+   57  pwd
+   58  history
+   59  less
+   60  history less
+   61  history | less
+   62  copy con > z.txt
+   63  ls
+   64  type z.txt 
+   65  history > a.txt
+   66  type a.txt
+   67  pwd
+   68  cd temp
+   69  dir
+   70  ls
+   71  type x.txt 
+   72  type TARGET 
+   73  cat x.txt 
+   74  history > history.txt
+   75  cat history.txt 
+   76  ps
+   77  who
+   78  git
+   79  pwd
+   80  cd ..
+   81  mkdir uge_workshop
+   82  pwd
+   83  history > moving_around.txt
